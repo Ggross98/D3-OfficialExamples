@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+
+    <svg width="1600" height="960" id="mainSvg" class="svgs"></svg>
+    <script>
+        
+        const mainSvg = d3.select('.svgs')
+        const mainWidth = +mainSvg.attr("width");
+        const mainHeight = +mainSvg.attr("height");
+        const margin = {
+            top: 60,
+            right: 120,
+            bottom: 120,
+            left: 60
+        };
+        const innerWidth = mainWidth - margin.left - margin.right;
+        const innerHeight = mainHeight - margin.bottom - margin.top;
+
+        const g = mainSvg.append("g")
+            .attr("id", "mainGroup")
+            .attr("width", innerWidth)
+            .attr("height", innerHeight)
+            .attr("transform", `translate(${margin.left}, ${margin.top})`)
+
+    </script>
+</body>
+
+</html>
