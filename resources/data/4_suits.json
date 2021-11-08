@@ -1,0 +1,111 @@
+[
+    {
+        "source": "A",
+        "target": "B",
+        "type": "licensing"
+    },
+    {
+        "source": "B",
+        "target": "A",
+        "type": "licensing"
+    },
+    {
+        "source": "A",
+        "target": "C",
+        "type": "suit"
+    },
+    {
+        "source": "B",
+        "target": "C",
+        "type": "licensing"
+    },
+    {
+        "source": "C",
+        "target": "D",
+        "type": "licensing"
+    },
+    {
+        "source": "C",
+        "target": "E",
+        "type": "suit"
+    },
+    {
+        "source": "C",
+        "target": "F",
+        "type": "licensing"
+    },
+    {
+        "source": "F",
+        "target": "G",
+        "type": "licensing"
+    },
+    {
+        "source": "F",
+        "target": "H",
+        "type": "licensing"
+    },
+    {
+        "source": "A1",
+        "target": "F1",
+        "type": "resolved"
+    },
+    {
+        "source": "B1",
+        "target": "H1",
+        "type": "resolved"
+    },
+
+    {
+        "source": "A1",
+        "target": "B1",
+        "type": "licensing"
+    },
+    {
+        "source": "A1",
+        "target": "C1",
+        "type": "suit"
+    },
+    {
+        "source": "B1",
+        "target": "C1",
+        "type": "licensing"
+    },
+    {
+        "source": "C1",
+        "target": "D",
+        "type": "licensing"
+    },
+    {
+        "source": "C1",
+        "target": "E",
+        "type": "suit"
+    },
+    {
+        "source": "C1",
+        "target": "F",
+        "type": "licensing"
+    },
+    {
+        "source": "F",
+        "target": "G1",
+        "type": "licensing"
+    },
+    {
+        "source": "F",
+        "target": "H1",
+        "type": "licensing"
+    },
+    {
+        "source": "A1",
+        "target": "F1",
+        "type": "resolved"
+    },
+    {
+        "source": "B1",
+        "target": "H1",
+        "type": "resolved"
+    }
+
+
+
+]
